@@ -1,20 +1,17 @@
-
 .willFadeUp {
     opacity: 0;
 }
 
 .didFadeUp {
     opacity: 1;
-    animation: fade_in_show 0.5s;
+    animation: fade_in_show 3s;
 }
 
 @keyframes fade_in_show {
     0% {
-        margin-bottom: -100px;
         opacity: 0;
     }
     100% {
-        margin-bottom: 0;
-        opacity: 0.4;
+        opacity: 1;
     }
 }
