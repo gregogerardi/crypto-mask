@@ -19,10 +19,10 @@ const Header = () => {
             <div className={navOptionsWrapperCls}>
             <ul className={navOptionsCls}>
                 <li className={optionCls} onClick={closeMobileMenu}>
-                    <a href="#Story">Story</a>
+                    <a href="#introduction">Introduction</a>
                 </li>
                 <li className={optionCls} onClick={closeMobileMenu}>
-                    <a href="#NFTs">NFTs</a>
+                    <a href="#presentation">Presentation</a>
                 </li>
                 <li className={optionCls} onClick={closeMobileMenu}>
                     <a href="#Roadmap">Roadmap</a>

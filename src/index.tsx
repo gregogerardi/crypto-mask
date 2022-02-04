@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import "./theme/index.css"
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './Utils/Polyfills'
 
 ReactDOM.render(
   <React.StrictMode>

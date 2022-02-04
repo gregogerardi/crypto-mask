@@ -1,6 +1,6 @@
 /*Desktop View*/
 .container {
-    background-color: var(--Black);
+    background-color: var(--Transparent);
     min-height: 500px;
     display: flex;
     justify-content: space-around;

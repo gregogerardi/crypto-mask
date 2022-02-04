@@ -9,7 +9,7 @@ import {useHashScrollDefaultOptions} from "../../Layout/constant";
 const nftContentCls = classNames(style.nftContent, fonts.defaultFont)
 const contentCls = classNames(style.content)
 const nftDescriptionCls = classNames(style.nftDescription)
-const Presentation = () => {
+const Gallery = () => {
     const scrollRef = useHashScroll<HTMLDivElement>("presentation", useHashScrollDefaultOptions);
     return (
         <Section>
@@ -31,4 +31,4 @@ const Presentation = () => {
     );
 };
 
-export default Presentation;
+export default Gallery;
