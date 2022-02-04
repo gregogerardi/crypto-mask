@@ -5,40 +5,27 @@
     display: flex;
     justify-content: space-around;
 }
+
 .content {
-    padding: 24px;
-    gap: 24px;
+    box-sizing: border-box;
+    padding: 48px;
+    max-width: min(1080px, 100vw);
     display: flex;
-    flex-grow: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 1080px;
-    background-color: var(--Red);
-}
-
-.nftContent {
-    padding: 24px;
-    gap: 24px;
-    display: flex;
     flex-grow: 1;
-    justify-content: center;
-    align-items: center;
-    max-width: 1080px;
-    flex-wrap: wrap;
-    background-color: var(--Red);
+    background-color: var(--Dark-Grey);
 }
 
-.nftDescription{
-    display: flex;
-    flex-direction: column;
-}
-.nftContent img {
-    width: 300px;
-    height:300px;
+img {
+    width: 200px;
+    height: 200px;
     object-fit: cover;
 }
 
-.content h1 {
-   padding: 24px
+.imgContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
 }
