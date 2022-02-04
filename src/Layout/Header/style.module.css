@@ -27,19 +27,25 @@
     flex-grow: 1;
 }
 
+.withHover:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
 .option {
     color: var(--White);
     transition: uppercase;
     display: flex;
     justify-content: center;
+    border-radius: 40%;
 }
 
 .option a {
     color: var(--White);
     text-decoration: none;
+    padding: 8px;
 }
 
-.option :hover {
+.option:hover a {
     color: var(--Dark-Grey);
 }
 
@@ -123,13 +129,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border-radius: 50%;
         fill: var(--White);
     }
 
     .menuIcon:hover {
-        background-color: rgba(0, 0, 0, 0.3);
         fill: var(--Dark-Grey);
+        border-radius: 50%;
     }
 
     .option {
