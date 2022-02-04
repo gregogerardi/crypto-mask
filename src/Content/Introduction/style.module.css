@@ -1,0 +1,29 @@
+/*Desktop View*/
+.container {
+    background-color: var(--Black);
+    min-height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.content {
+    padding: 24px;
+    gap: 24px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1080px;
+    background-color: var(--Dark-Grey);
+}
+
+.content h1 {
+   padding: 24px
+}
+
+.description {
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

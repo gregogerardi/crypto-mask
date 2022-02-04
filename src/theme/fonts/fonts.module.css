@@ -1,0 +1,67 @@
+/***FONT FOR ICONS***/
+@font-face {
+    font-family: font-awesome;
+    src: url(./fontawesome.woff2);
+}
+
+/***Default font***/
+.defaultFont {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.defaultFont.size12 {
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.defaultFont.size14 {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.defaultFont.size16 {
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.defaultFont.size18 {
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.defaultFont.size20 {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.defaultFont.size22 {
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.defaultFont.size24 {
+    font-size: 24px;
+    line-height: 48px;
+}
+
+.defaultFont.size26 {
+    font-size: 26px;
+    line-height: 48px;
+}
+
+/*******HEADERS******/
+.sectionHeader {
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/*******COLORS******/
+.red {
+    color: var(--Red);
+}

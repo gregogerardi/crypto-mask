@@ -1,0 +1,140 @@
+/*Desktop View*/
+.header {
+    display: flex;
+    background-color: var(--Dark-Red);
+    justify-content: center;
+    margin: 2vmin 0;
+    align-items: center;
+    max-height: 256px;
+    min-height: 48px;
+    height: 5vmin;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.nav {
+    padding-left: 0;
+    display: flex;
+    flex-grow: 1;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+.navWrapper {
+    max-width: 1080px;
+    display: flex;
+    flex-grow: 1;
+}
+
+.option {
+    color: var(--White);
+    transition: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.option a {
+    color: var(--White);
+    text-decoration: none;
+}
+
+.option :hover {
+    color: var(--Dark-Grey);
+}
+
+.menuIcon {
+    display: none;
+}
+
+@media (max-width: 648px) {
+    /*Mobile View */
+    .clickOutside {
+        height: 100vh;
+        width: 100vw;
+        background: var(--Black);
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+
+    .header {
+        justify-content: flex-start;
+        padding: 0 16px;
+    }
+
+    .clickOutside.active {
+        display: block;
+        animation: fade_in_show 0.5s;
+        opacity: 0.4;
+    }
+
+    @keyframes fade_in_show {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 0.4;
+        }
+    }
+
+    .header.active {
+        padding: 0 16px;
+    }
+
+    .nav {
+        margin: 0;
+        display: flex;
+        max-height: min(100vh, 500px);
+        transition: all 0.5s ease;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .nav.active {
+        z-index: 2;
+    }
+
+    .navWrapper {
+        margin: 0;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        height: 100vh;
+        opacity: 0;
+        transition: all 0.5s ease;
+        padding: 0 32px;
+        list-style-type: none;
+    }
+
+    .navWrapper.active {
+        background: var(--Red);
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 2;
+        align-content: center;
+    }
+
+    .menuIcon {
+        width: 48px;
+        height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        fill: var(--White);
+    }
+
+    .menuIcon:hover {
+        background-color: rgba(0, 0, 0, 0.3);
+        fill: var(--Dark-Grey);
+    }
+
+    .option {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

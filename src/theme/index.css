@@ -1,0 +1,7 @@
+@import './colors.css';
+@import './fonts/fonts.module.css';
+
+body {
+    margin: 0;
+    background-color: var(--Dark-Red)
+}
