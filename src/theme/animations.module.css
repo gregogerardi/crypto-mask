@@ -4,14 +4,18 @@
 
 .didFadeUp {
     opacity: 1;
-    animation: fade_in_show 3s;
+    animation: fade_in_show 1s;
 }
 
 @keyframes fade_in_show {
     0% {
+        transform: translateY(50px);
+        padding-top: 50px;
         opacity: 0;
     }
     100% {
+        transform: translateY(0);
+        padding-top: 0;
         opacity: 1;
     }
 }
