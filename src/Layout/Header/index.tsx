@@ -25,19 +25,22 @@ const Header = () => {
                     <a href="#presentation">Presentation</a>
                 </li>
                 <li className={optionCls} onClick={closeMobileMenu}>
-                    <a href="#Roadmap">Roadmap</a>
+                    <a href="#gallery">Gallery</a>
                 </li>
                 <li className={optionCls} onClick={closeMobileMenu}>
-                    <a href="#Discord">Discord</a>
+                    <a href="#roadmap">Roadmap</a>
                 </li>
                 <li className={optionCls} onClick={closeMobileMenu}>
-                    <a href="#Twitter">Twitter</a>
+                    <a href="https://discord.com/" target="_blank">Discord</a>
                 </li>
                 <li className={optionCls} onClick={closeMobileMenu}>
-                    <a href="#OpenSea">OpenSea</a>
+                    <a href="https://twitter.com/" target="_blank">Twitter</a>
                 </li>
                 <li className={optionCls} onClick={closeMobileMenu}>
-                    <a href="#Mail">Mail</a>
+                    <a href="https://opensea.io" target="_blank">OpenSea</a>
+                </li>
+                <li className={optionCls} onClick={closeMobileMenu}>
+                    <a href="mailto:perritosunidos@ladridos.guau?Subject=Consulta%20sobre%20los%20perritos" target="_blank">Mail</a>
                 </li>
             </ul>
             </div>

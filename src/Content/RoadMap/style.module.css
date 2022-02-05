@@ -15,11 +15,17 @@
     justify-content: center;
     align-items: center;
     max-width: 1080px;
-    background-color: var(--Dark-Grey);
+    background-color: var(--Red);
 }
 
 .content h1 {
    padding: 24px
+}
+
+.line {
+   width: 8px;
+   height: 60px;
+    background-color: var(--Black);
 }
 
 .description {

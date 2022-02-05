@@ -3,6 +3,7 @@ import Layout from "./Layout";
 import Introduction from "./Content/Introduction";
 import Presentation from "./Content/Presentation";
 import Gallery from "./Content/Gallery";
+import RoadMap from "./Content/RoadMap";
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
                 <Introduction/>
                 <Presentation/>
                 <Gallery/>
+                <RoadMap/>
             </BrowserRouter>
         </Layout>
     );

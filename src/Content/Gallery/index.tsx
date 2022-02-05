@@ -33,7 +33,7 @@ const items = imgs.map(imgSource=><div className={style.imgContainer}>
 </div>)
 
 const Gallery = () => {
-    const scrollRef = useHashScroll<HTMLDivElement>("presentation", useHashScrollDefaultOptions);
+    const scrollRef = useHashScroll<HTMLDivElement>("gallery", useHashScrollDefaultOptions);
     return (
         <Section>
             <div className={style.container} ref={scrollRef}>
