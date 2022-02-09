@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/crypto-mask/static/css/main.e9d0a8c7.css",
-    "main.js": "/crypto-mask/static/js/main.d9accad7.js",
+    "main.css": "/crypto-mask/static/css/main.0f0fc014.css",
+    "main.js": "/crypto-mask/static/js/main.ca9f82e0.js",
     "static/js/787.96a26e5d.chunk.js": "/crypto-mask/static/js/787.96a26e5d.chunk.js",
     "static/media/dog1.jpg": "/crypto-mask/static/media/dog1.5a497ed53f59855bae7b.jpg",
     "static/media/fontawesome.woff2": "/crypto-mask/static/media/fontawesome.20fd1704ea223900efa9.woff2",
     "static/media/pastorAustraliano.jpeg": "/crypto-mask/static/media/pastorAustraliano.f661d0d3e2f6063a41d8.jpeg",
     "index.html": "/crypto-mask/index.html",
-    "main.e9d0a8c7.css.map": "/crypto-mask/static/css/main.e9d0a8c7.css.map",
-    "main.d9accad7.js.map": "/crypto-mask/static/js/main.d9accad7.js.map",
+    "main.0f0fc014.css.map": "/crypto-mask/static/css/main.0f0fc014.css.map",
+    "main.ca9f82e0.js.map": "/crypto-mask/static/js/main.ca9f82e0.js.map",
     "787.96a26e5d.chunk.js.map": "/crypto-mask/static/js/787.96a26e5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9d0a8c7.css",
-    "static/js/main.d9accad7.js"
+    "static/css/main.0f0fc014.css",
+    "static/js/main.ca9f82e0.js"
   ]
 }
