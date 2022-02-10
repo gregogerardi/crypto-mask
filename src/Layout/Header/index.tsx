@@ -2,6 +2,8 @@ import {useState} from "react";
 import style from "./style.module.css";
 import fonts from "theme/fonts/fonts.module.css";
 import classNames from "classnames";
+// @ts-ignore
+import loadWeb3 from "Utils/Blockchain/LoadWeb3";
 const optionCls = classNames(fonts.defaultFont, fonts.size18, style.option)
 
 const Header = () => {
@@ -41,6 +43,9 @@ const Header = () => {
                 </li>
                 <li className={optionCls} onClick={closeMobileMenu}>
                     <a href="mailto:perritosunidos@ladridos.guau?Subject=Consulta%20sobre%20los%20perritos" target="_blank">Mail</a>
+                </li>
+                <li className={optionCls} onClick={loadWeb3}>
+                   MetaMask
                 </li>
             </ul>
             </div>
