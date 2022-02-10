@@ -1,0 +1,46 @@
+.door {
+    z-index: 2;
+    height: calc(100vw - 16px);
+    width: calc(50vw - 16px);
+    background-color: saddlebrown;
+    position: fixed;
+    top: 0;
+    border: saddlebrown;
+    border-style: solid;
+    border-width: 8px;
+}
+
+.right {
+    right: 0;
+    background-position: left;
+}
+
+.left {
+    left: 0;
+    background-position: right;
+}
+
+.right.open {
+    animation: rightBounce 2s ease;
+    transform: translateX(min(540px,50vw))
+}
+
+.left.open {
+    animation: leftBounce 2s ease;
+    transform: translateX(max(-540px,-50vw))
+}
+
+/* ---------- Left Bounce ---------- */
+
+@keyframes leftBounce {
+    0% {transform: translateX(0%);}
+    100% {transform: translateX(max(-540px,-50vw));}
+}
+
+/* ---------- Right Bounce ---------- */
+
+@keyframes rightBounce {
+    0% {transform: translateX(0%);}
+    100% {transform: translateX(min(540px,50vw));}
+
+}
