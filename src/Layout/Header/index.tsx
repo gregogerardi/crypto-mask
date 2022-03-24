@@ -22,18 +22,18 @@ const Header = () => {
             <div className={navOptionsWrapperCls}>
             <ul className={navOptionsCls}>
                 <li className={optionCls} onClick={closeMobileMenu}>
-                    <Link to={'/#introduction'}>
+                    <Link to={'/crypto-mask/#introduction'}>
                         Introduction
                     </Link>
                 </li>
                 <li className={optionCls} onClick={closeMobileMenu}>
-                    <Link to={'/#presentation'}>Presentation</Link>
+                    <Link to={'/crypto-mask/#presentation'}>Presentation</Link>
                 </li>
                 <li className={optionCls} onClick={closeMobileMenu}>
-                    <Link to={'/#gallery'}>Gallery</Link>
+                    <Link to={'/crypto-mask/#gallery'}>Gallery</Link>
                 </li>
                 <li className={optionCls} onClick={closeMobileMenu}>
-                    <Link to={'/#roadmap'}>Roadmap</Link>
+                    <Link to={'/crypto-mask/#roadmap'}>Roadmap</Link>
                 </li>
                 <li className={optionCls} onClick={closeMobileMenu}>
                     <a href="https://discord.com/" target="_blank" rel="noreferrer">Discord</a>

@@ -10,9 +10,9 @@ function App() {
         <BrowserRouter>
             <Layout>
                 <Routes>
-                    <Route path="/" element={<Home/>}/>
-                    <Route path="whitelist" element={<Whitelist/>}/>
-                    <Route path="*" element={<NotFound/>}/>
+                    <Route path="crypto-mask" element={<Home/>}/>
+                    <Route path="crypto-mask/whitelist" element={<Whitelist/>}/>
+                    <Route path="crypto-mask/*" element={<NotFound/>}/>
                 </Routes>
             </Layout>
         </BrowserRouter>
