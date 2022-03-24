@@ -1,0 +1,33 @@
+/*Desktop View*/
+.container {
+    background-color: var(--Transparent);
+    min-height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content {
+    padding: 48px;
+    box-sizing: border-box;
+    gap: 24px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1080px;
+    background-color: var(--Dark-Grey);
+}
+
+.content h1 {
+    padding: 24px;
+    text-align: center;
+}
+
+.content a {
+    color: var(--White)
+}
+
+.content a:hover {
+    color: var(--Dark-Red);
+}

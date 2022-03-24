@@ -1,10 +1,10 @@
-import Section from "../../Utils/Wrappers/Section";
+import Section from "../../../Utils/Wrappers/Section";
 import style from './style.module.css'
 import fonts from 'theme/fonts/fonts.module.css'
 import classNames from "classnames";
 import perrito from "assets/dogs/dog1.jpg";
 import {useHashScroll} from "react-hash-scroll";
-import {useHashScrollDefaultOptions} from "../../Layout/constant";
+import {useHashScrollDefaultOptions} from "../../../Layout/constant";
 
 const nftContentCls = classNames(style.nftContent, fonts.defaultFont)
 const contentCls = classNames(style.content)

@@ -1,10 +1,10 @@
-import Section from "../../Utils/Wrappers/Section";
+import Section from "../../../Utils/Wrappers/Section";
 import style from './style.module.css'
 import fonts from 'theme/fonts/fonts.module.css'
 import classNames from "classnames";
 import { useHashScroll } from "react-hash-scroll";
-import {useHashScrollDefaultOptions} from "../../Layout/constant";
-import FadeIn from "../../Utils/Wrappers/FadeIn";
+import {useHashScrollDefaultOptions} from "../../../Layout/constant";
+import FadeIn from "../../../Utils/Wrappers/FadeIn";
 
 const descriptionCls = classNames(style.description, fonts.defaultFont, fonts.size26)
 const RoadMap = () => {

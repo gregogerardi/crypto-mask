@@ -1,9 +1,9 @@
-import Section from "../../Utils/Wrappers/Section";
+import Section from "../../../Utils/Wrappers/Section";
 import style from './style.module.css'
 import fonts from 'theme/fonts/fonts.module.css'
 import classNames from "classnames";
 import { useHashScroll } from "react-hash-scroll";
-import {useHashScrollDefaultOptions} from "../../Layout/constant";
+import {useHashScrollDefaultOptions} from "../../../Layout/constant";
 
 const descriptionCls = classNames(style.description, fonts.defaultFont)
 const contentCls = classNames(style.content, fonts.red)

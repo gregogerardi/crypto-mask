@@ -1,4 +1,4 @@
-import Section from "../../Utils/Wrappers/Section";
+import Section from "../../../Utils/Wrappers/Section";
 import style from './style.module.css'
 import pastorAustraliano from "assets/dogs/pastorAustraliano.jpeg";
 import {useHashScroll} from "react-hash-scroll";

@@ -4,6 +4,7 @@ import fonts from "theme/fonts/fonts.module.css";
 import classNames from "classnames";
 // @ts-ignore
 import loadWeb3 from "Utils/Blockchain/LoadWeb3";
+import {Link} from "react-router-dom";
 const optionCls = classNames(fonts.defaultFont, fonts.size18, style.option)
 
 const Header = () => {
@@ -21,28 +22,30 @@ const Header = () => {
             <div className={navOptionsWrapperCls}>
             <ul className={navOptionsCls}>
                 <li className={optionCls} onClick={closeMobileMenu}>
-                    <a href="#introduction">Introduction</a>
+                    <Link to={'/#introduction'}>
+                        Introduction
+                    </Link>
                 </li>
                 <li className={optionCls} onClick={closeMobileMenu}>
-                    <a href="#presentation">Presentation</a>
+                    <Link to={'/#presentation'}>Presentation</Link>
                 </li>
                 <li className={optionCls} onClick={closeMobileMenu}>
-                    <a href="#gallery">Gallery</a>
+                    <Link to={'/#gallery'}>Gallery</Link>
                 </li>
                 <li className={optionCls} onClick={closeMobileMenu}>
-                    <a href="#roadmap">Roadmap</a>
+                    <Link to={'/#roadmap'}>Roadmap</Link>
                 </li>
                 <li className={optionCls} onClick={closeMobileMenu}>
-                    <a href="https://discord.com/" target="_blank">Discord</a>
+                    <a href="https://discord.com/" target="_blank" rel="noreferrer">Discord</a>
                 </li>
                 <li className={optionCls} onClick={closeMobileMenu}>
-                    <a href="https://twitter.com/" target="_blank">Twitter</a>
+                    <a href="https://twitter.com/" target="_blank" rel="noreferrer">Twitter</a>
                 </li>
                 <li className={optionCls} onClick={closeMobileMenu}>
-                    <a href="https://opensea.io" target="_blank">OpenSea</a>
+                    <a href="https://opensea.io" target="_blank" rel="noreferrer">OpenSea</a>
                 </li>
                 <li className={optionCls} onClick={closeMobileMenu}>
-                    <a href="mailto:perritosunidos@ladridos.guau?Subject=Consulta%20sobre%20los%20perritos" target="_blank">Mail</a>
+                    <a href="mailto:perritosunidos@ladridos.guau?Subject=Consulta%20sobre%20los%20perritos" target="_blank" rel="noreferrer">Mail</a>
                 </li>
                 <li className={optionCls} onClick={loadWeb3}>
                    MetaMask
