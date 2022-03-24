@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/crypto-mask/static/css/main.c0b3cce3.css",
-    "main.js": "/crypto-mask/static/js/main.34b52c71.js",
+    "main.css": "/crypto-mask/static/css/main.d6afea1c.css",
+    "main.js": "/crypto-mask/static/js/main.46e3c62b.js",
     "static/js/787.96a26e5d.chunk.js": "/crypto-mask/static/js/787.96a26e5d.chunk.js",
     "static/media/dog1.jpg": "/crypto-mask/static/media/dog1.5a497ed53f59855bae7b.jpg",
+    "static/media/pixelArtDraft.jpeg": "/crypto-mask/static/media/pixelArtDraft.b516041055b77aecdd0a.jpeg",
     "static/media/fontawesome.woff2": "/crypto-mask/static/media/fontawesome.20fd1704ea223900efa9.woff2",
     "static/media/pastorAustraliano.jpeg": "/crypto-mask/static/media/pastorAustraliano.f661d0d3e2f6063a41d8.jpeg",
     "static/media/pixerArtWood.jpeg": "/crypto-mask/static/media/pixerArtWood.e30e4b12cef45f85c0e3.jpeg",
     "index.html": "/crypto-mask/index.html",
-    "main.c0b3cce3.css.map": "/crypto-mask/static/css/main.c0b3cce3.css.map",
-    "main.34b52c71.js.map": "/crypto-mask/static/js/main.34b52c71.js.map",
+    "main.d6afea1c.css.map": "/crypto-mask/static/css/main.d6afea1c.css.map",
+    "main.46e3c62b.js.map": "/crypto-mask/static/js/main.46e3c62b.js.map",
     "787.96a26e5d.chunk.js.map": "/crypto-mask/static/js/787.96a26e5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0b3cce3.css",
-    "static/js/main.34b52c71.js"
+    "static/css/main.d6afea1c.css",
+    "static/js/main.46e3c62b.js"
   ]
 }
