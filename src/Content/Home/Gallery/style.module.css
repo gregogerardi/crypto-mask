@@ -1,7 +1,7 @@
 /*Desktop View*/
 .container {
     background-color: var(--Black);
-    min-height: 500px;
+    min-height: min(1080px, 100vh);
     display: flex;
     justify-content: space-around;
 }
@@ -9,7 +9,7 @@
 .content {
     box-sizing: border-box;
     padding: 48px;
-    max-width: min(1080px, 100vw);
+    max-width: min(1920px, 100vw);
     display: flex;
     flex-direction: column;
     justify-content: center;

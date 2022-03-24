@@ -22,25 +22,25 @@
 
 .right.open {
     animation: rightBounce 2s ease;
-    transform: translateX(min(540px,50vw))
+    transform: translateX(min(960px,50vw))
 }
 
 .left.open {
     animation: leftBounce 2s ease;
-    transform: translateX(max(-540px,-50vw))
+    transform: translateX(max(-960px,-50vw))
 }
 
 /* ---------- Left Bounce ---------- */
 
 @keyframes leftBounce {
     0% {transform: translateX(0%);}
-    100% {transform: translateX(max(-540px,-50vw));}
+    100% {transform: translateX(max(-960px,-50vw));}
 }
 
 /* ---------- Right Bounce ---------- */
 
 @keyframes rightBounce {
     0% {transform: translateX(0%);}
-    100% {transform: translateX(min(540px,50vw));}
+    100% {transform: translateX(min(960px,50vw));}
 
 }

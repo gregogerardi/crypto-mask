@@ -1,7 +1,7 @@
 /*Desktop View*/
 .container {
     background-color: var(--Transparent);
-    min-height: 500px;
+    min-height: min(1080px, 100vh);
     display: flex;
     justify-content: space-around;
 }
@@ -14,7 +14,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 1080px;
+    max-width: 1920px;
     background-color: var(--Red);
 }
 

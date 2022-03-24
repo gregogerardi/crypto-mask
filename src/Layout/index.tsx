@@ -6,7 +6,7 @@ import style from './style.module.css'
 const Layout: FC = ({children}) => (
     <>
         <DoorsCover/>
-        <div className="layout">
+        <div>
             <Header/>
             <div className={style.content}>
                 {children}
