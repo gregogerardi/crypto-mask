@@ -1,7 +1,7 @@
 /*Desktop View*/
 .container {
     background-color: var(--Transparent);
-    min-height: min(1080px, 100vh);
+    min-height: min(var(--Max-Section-Height), 100vh);
     display: flex;
     justify-content: space-around;
 }
@@ -14,7 +14,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 1920px;
+    max-width: var(--Max-Page-Width);
     background: url("assets/backgrounds/pixelArtDraft.jpeg");
     background-size: cover;
     background-position: center;

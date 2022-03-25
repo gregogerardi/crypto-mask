@@ -1,0 +1,5 @@
+:root {
+  --Max-Page-Width: 1700px;
+  --Max-Section-Height: 1080px;
+  --Half-Max-Page-Width: var(--Max-Page-Width) / 2;
+}

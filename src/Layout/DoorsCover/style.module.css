@@ -22,25 +22,24 @@
 
 .right.open {
     animation: rightBounce 2s ease;
-    transform: translateX(min(960px,50vw))
+    transform: translateX(min(var(--Half-Max-Page-Width),50vw))
 }
 
 .left.open {
     animation: leftBounce 2s ease;
-    transform: translateX(max(-960px,-50vw))
+    transform: translateX(max(calc(var(--Half-Max-Page-Width) * -1),-50vw))
 }
 
 /* ---------- Left Bounce ---------- */
 
 @keyframes leftBounce {
     0% {transform: translateX(0%);}
-    100% {transform: translateX(max(-960px,-50vw));}
+    100% {transform: translateX(max(calc(var(--Half-Max-Page-Width) * -1),-50vw));}
 }
 
 /* ---------- Right Bounce ---------- */
 
 @keyframes rightBounce {
     0% {transform: translateX(0%);}
-    100% {transform: translateX(min(960px,50vw));}
-
+    100% {transform: translateX(min(850px,50vw));}
 }
